@@ -1,0 +1,6 @@
+@Api.Microservice.CarritoCompra_HostAddress = http://localhost:5096
+
+GET {{Api.Microservice.CarritoCompra_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
