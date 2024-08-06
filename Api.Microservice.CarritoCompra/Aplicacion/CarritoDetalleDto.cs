@@ -4,7 +4,7 @@
     {
         public Guid? LibroId { get; set; }
         public string TituloLibro { get; set; }
-        public string AutorLibro { get; set; }
+        public Guid? AutorLibro { get; set; }
         public DateTime? FechaPublicacion { get; set; }
         public double Precio { get; set; }
         public byte[] Imagenes { get; set; }

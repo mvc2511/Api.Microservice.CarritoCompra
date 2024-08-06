@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Api.Microservice.CarritoCompra.Migrations
 {
     [DbContext(typeof(CarritoContexto))]
-    [Migration("20240805034144_Carrito-Db-V1")]
+    [Migration("20240806152310_Carrito-Db-V1")]
     partial class CarritoDbV1
     {
         /// <inheritdoc />

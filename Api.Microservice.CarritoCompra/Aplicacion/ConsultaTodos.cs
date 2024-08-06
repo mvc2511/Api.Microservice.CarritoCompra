@@ -49,6 +49,8 @@ namespace TiendaServicions.Carrito.Aplicaciones
                                 FechaPublicacion = objetoLibro.FechaPublicacion,
                                 LibroId = objetoLibro.LibreriaMaterialId,
                                 Precio = objetoLibro.Precio,
+                                AutorLibro = objetoLibro.AutorLibro,
+                                Imagenes = objetoLibro.Imagenes,
                             };
                             detallesCarritoDto.Add(carritoDetalle);
                         }

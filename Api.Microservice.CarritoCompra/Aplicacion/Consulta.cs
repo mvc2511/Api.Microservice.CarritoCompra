@@ -45,6 +45,8 @@ namespace Api.Microservice.CarritoCompra.Aplicacion
                             FechaPublicacion = objetoLibro.FechaPublicacion,
                             LibroId = objetoLibro.LibreriaMaterialId,
                             Precio = objetoLibro.Precio,
+                            AutorLibro = objetoLibro.AutorLibro,
+                            Imagenes = objetoLibro.Imagenes,
                         };
                         listaCarritoDto.Add(carritoDetalle);
                     }
